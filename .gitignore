@@ -1,1 +1,19 @@
+# Ignore environment variable files
 .env
+
+# Ignore node modules
+node_modules/
+
+# Optional: Ignore logs, IDE files, and system files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore IDE settings
+.vscode/
+.idea/
