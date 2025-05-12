@@ -1,0 +1,22 @@
+{
+  "name": "wqms-backend",
+  "version": "1.0.0",
+  "description": "Water Quality Monitoring System backend using Express.js",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon"
+  },
+  "keywords": ["WQMS", "backend", "Express", "Node.js"],
+  "author": "Arishkannan A",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
