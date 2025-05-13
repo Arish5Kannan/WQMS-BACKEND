@@ -5,16 +5,24 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon"
+    "dev": "nodemon server.js"
   },
-  "keywords": ["WQMS", "backend", "Express", "Node.js"],
+  "keywords": [
+    "WQMS",
+    "backend",
+    "Express",
+    "Node.js"
+  ],
   "author": "Arishkannan A",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^11.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
